@@ -13,13 +13,27 @@ The report helps users examine where and when bank failures occurred and compare
 ### After: Power BI Report
 ![Completed Power BI report](images/after-power-bi-report.png)
 
-## Project Goals
+## Project Overview:
+# Business Context and STAR Summary
 
-- Connect Power BI to a public FDIC failed-bank data source.
-- Clean and prepare the data with Power Query.
-- Create a calendar table for date-based analysis.
-- Explore bank failures by state and time.
-- Present findings in an interactive report.
+### Situation
+Bank failures are recorded in public data, but the raw list can be difficult to explore quickly by location and time. Stakeholders may need a clearer way to review patterns in the available records.
+
+### Task
+I built an interactive Power BI report to organize FDIC failed-bank data and make it easier to examine failures by state, city, and date.
+
+### Action
+- Connected Power BI to the FDIC Failed Bank List.
+- Cleaned and prepared the data in Power Query.
+- Created a combined city-and-state field to make locations easier to distinguish.
+- Created a calendar table for date-based analysis.
+- Built report visuals, including a matrix that lets users drill from state to city.
+- Added interactive filtering so users can explore the data by selecting report visuals.
+
+### Result
+The project delivers an interactive report for exploring the failed-bank records by location and time. Users can review summarized counts, drill into state and city details, and filter the report to investigate patterns in the available data.
+
+> This project describes patterns in historical records. It does not predict future bank failures or establish their causes.
 
 ## Tools and Skills
 
@@ -47,16 +61,6 @@ The FDIC may update its data over time. Report results can change when the sourc
 - A combined city-and-state field to distinguish locations with the same city name
 
 > Update this section to match the visuals and features in your finished report.
-
-## Project Workflow
-
-1. Connected Power BI to the FDIC data.
-2. Used Power Query to rename the query and remove unneeded columns.
-3. Created a combined city-and-state column.
-4. Loaded the prepared data into the Power BI model.
-5. Created a calendar table and date-related fields.
-6. Built report visuals to explore the data.
-7. Published the report to the Power BI service, if available.
 
 ## Repository Structure
 
