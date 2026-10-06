@@ -64,9 +64,10 @@ The FDIC may update its data over time. Report results can change when the sourc
 .
 ├── images/
 │   ├── before-source-data.png
-│   └── after-power-bi-report.png
-├── Failed-Bank-Analysis.pbix
-├── Failed-Bank-Data-CVS.pbix
+    └── after-power-bi-report.png
+├── Failed Bank-Power BI
+    ├── Failed-Bank-Analysis.pbix
+    └── Failed-Bank-Data-CVS.pbix
 └── README.md
 ```
 ##  Notes
