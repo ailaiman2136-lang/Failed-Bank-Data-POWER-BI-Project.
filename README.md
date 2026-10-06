@@ -7,11 +7,11 @@ The report helps users examine where and when bank failures occurred and compare
 ## Before and After
 
 ### Before: Source Data
-![Source data before transformation](imagesbefore-source-data.png)
+![Source data before transformation](images/before-source-data.png)
 
 
 ### After: Power BI Report
-![Completed Power BI report](imagesafter-power-bi-report.png)
+![Completed Power BI report](images/after-power-bi-report.png)
 
 ## Project Goals
 
