@@ -7,14 +7,15 @@ The report helps users examine where and when bank failures occurred and compare
 ## Before and After
 
 ### Before: Source Data
-![Source data before transformation](images/before-source-data.png)
+<img src="images/before-source-data.png" alt="Source data before transformation" width="600">
 
 
 ### After: Power BI Report
 ![Completed Power BI report](images/after-power-bi-report.png)
 
-## Project Overview:
-# Business Context and STAR Summary
+# Project Overview:
+
+#### Business Context and STAR Summary
 
 ### Situation
 Bank failures are recorded in public data, but the raw list can be difficult to explore quickly by location and time. Stakeholders may need a clearer way to review patterns in the available records.
